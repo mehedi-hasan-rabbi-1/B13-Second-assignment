@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: #120022;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.why-choose{
+  margin: 0 auto;
+padding: 120px 200px 120px 200px;
+width:1200px;
+background-color: #230E3D;
+}
+.why-choose h2{
+  text-align: center;
+  font-size:3rem;
+  margin-bottom:40px;
+}
+
+.techwave-grid{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "audio mobile mobile"
+  "audio global global"
+  "interview interview resources";
+  gap: 30px;
+  margin: 0;
+  width: 1200px;
+}
+.card{
+  background-color:#351165;
+  border-radius:40px;
+  padding:40px;
+}
+.card img{
+  margin-bottom: 16px;
+}
+.card h3{
+  font-size:1.25rem;
+  margin-bottom: 16px;
+}
+
+.card p{
+  line-height:24px;
+  font-size: 1rem;
+}
+.audio{grid-area:audio;}
+.mobile{grid-area:mobile;}
+.global{grid-area:global;}
+.interview{grid-area:interview;}
+.resources{grid-area:resources;}
