@@ -62,7 +62,65 @@ body {
   color: white;
 }
 
+.about{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 50px 200px 120PX 200px;
+  /* gap: 80px; */
+  text-align: center;
+  background-color: #1A0B2E;
+  color: white;
+}
 
+.about h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.text{
+  max-width:1200px;
+  margin: 0 auto ;
+  margin-bottom: 40px;
+  font-size:1rem;
+  line-height: 1.6;
+  color: #ffffff;
+  opacity: 80%;
+}
+
+.about hr{
+  width:100%;
+  
+  margin: 0px auto ;
+  border: none;
+  height: 1px;
+  background: white;
+  opacity: 10%;
+}
+
+.stats{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.stat h3{
+  font-size: 3rem;
+  color: #00FF88;
+  margin-bottom: 8px;
+}
+
+.stat p{
+  width: 240px;
+   margin: 40px auto 0;
+  font-size: 1rem;
+  color: #FFFFFF;
+  opacity: 80%;
+  /* letter-spacing:0%; */
+  line-height: 16px;
+
+}
 
 
 
