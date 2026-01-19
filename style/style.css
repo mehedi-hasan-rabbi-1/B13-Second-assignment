@@ -124,7 +124,9 @@ body {
 
 
 
-/* .why-choose{
+
+
+.why-choose{
   margin: 0 auto;
 padding: 120px 200px 120px 200px;
 width:1200px;
@@ -168,4 +170,49 @@ background-color: #230E3D;
 .mobile{grid-area:mobile;}
 .global{grid-area:global;}
 .interview{grid-area:interview;}
-.resources{grid-area:resources;} */
+.resources{grid-area:resources;}
+
+
+.footer{
+  max-width: 1600px
+  background-color:#120022 ;
+  background-image:url(/assets/footer-bg.png);
+  background-size: cover;
+   color: white;
+  padding: 60px 20px;
+   text-align: center;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  gap: 32px
+}
+.logo img{
+  widows: 410px;
+  height: 60px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  gap:40px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+gap: 8px;
+}
+.icon img{
+  width: 24px;
+  height: 24px;
+}
+.icon p{
+  font-size: 1rem;
+  color: white;
+  margin-top: 0 auto;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: white;
+    opacity: 50%;
+    margin-top: 10px;
+}
