@@ -109,8 +109,19 @@ body {
 .mic img {
   width: 200px;
   height: 200px;
+  animation: float 3s ease-in-out infinite;
 }
-
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px); 
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
 
 .badge {
   position: absolute;
@@ -124,6 +135,7 @@ body {
   border-radius: 20px;
   z-index: 5;
 }
+
 
 
 h1 {
@@ -489,4 +501,11 @@ gap: 8px;
     color: white;
     opacity: 50%;
     margin-top: 10px;
+}
+
+
+
+
+@media screen {
+  
 }
