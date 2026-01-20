@@ -6,10 +6,13 @@
 body {
   margin: 0;
   background: #120022;
-  font-family: Arial, sans-serif;
   color: white;
 }
 
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
 
 .navbar{
   max-width: 1600px;
@@ -460,12 +463,14 @@ background-color: #230E3D;
 .icons{
   display: flex;
   justify-content: center;
+  align-items: center;
   gap:40px;
   flex-wrap: wrap;
 }
 .icon{
   display: flex;
   align-items: center;
+  justify-content: center;
 gap: 8px;
 }
 .icon img{
@@ -476,7 +481,7 @@ gap: 8px;
   align-items: center;
   font-size: 1rem;
   color: white;
-  margin-top: 0 auto;
+  margin: 0 auto;
 }
 
 .copyright {
